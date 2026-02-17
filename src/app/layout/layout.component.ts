@@ -1,9 +1,10 @@
 import { Component } from '@angular/core';
+import { SidebarComponent } from './sidebar/sidebar.component';
 
 @Component({
   selector: 'app-layout',
   standalone: true,
-  // imports: [RouterLink, RouterLinkActive],
+  imports: [SidebarComponent],
   templateUrl: './layout.component.html',
   styleUrls: ['./layout.component.scss'],
 })
